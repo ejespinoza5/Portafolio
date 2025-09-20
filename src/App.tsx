@@ -525,7 +525,7 @@ export default function App() {
             <div className="hidden md:flex items-center gap-2">
               {/* Download CV Button */}
               <a
-                href="/public/Edgar Josue Espinoza Zambrano CV.pdf"
+                href="/Edgar Josue Espinoza Zambrano CV.pdf"
                 download
                 className="inline-flex items-center gap-2 px-3 py-2 h-10 rounded-md border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors"
                 title={t.hero.downloadCV}
@@ -713,7 +713,7 @@ export default function App() {
                 <div className="border-t border-gray-200 dark:border-gray-800 pt-4 space-y-4">
                   {/* Mobile CV Download */}
                   <a
-                    href="/public/Edgar Josue Espinoza Zambrano CV.pdf"
+                    href="/Edgar Josue Espinoza Zambrano CV.pdf"
                     download
                     className="flex items-center gap-2 py-2"
                   >
@@ -1260,7 +1260,7 @@ export default function App() {
             {t.hero.cta}
           </button>
           <a
-            href="/public/Edgar Josue Espinoza Zambrano CV.pdf"
+            href="/Edgar Josue Espinoza Zambrano CV.pdf"
             download
             className="inline-flex items-center gap-2 px-8 py-3 rounded-full text-base font-semibold bg-black text-white dark:bg-white dark:text-black hover:opacity-80 transition-opacity"
           >
