@@ -1,0 +1,24 @@
+# Robots.txt para el portafolio de Edgar Josué Espinoza Zambrano
+# Permitir acceso a todos los bots de búsqueda
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://josueespinoza.netlify.app/sitemap.xml
+
+# Archivos específicos que no queremos indexar
+Disallow: /google-analytics.html
+Disallow: /google2c209a225ca0ce27.html
+
+# Permitir acceso a recursos importantes
+Allow: /Edgar Josue Espinoza Zambrano CV.pdf
+Allow: /certificados/
+Allow: /gestion horarios evidencias/
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.svg
+
+# Crawl-delay para ser amigable con los servidores
+Crawl-delay: 1
