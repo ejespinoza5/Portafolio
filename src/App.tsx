@@ -1398,6 +1398,35 @@ export default function App() {
           <li>• Trabajé en equipo aplicando metodologías de desarrollo ágil</li>
         </ul>
       </div>
+      <div className="p-8 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors">
+  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+    <div>
+      <h3 className="text-xl font-semibold">Desarrollador Backend</h3>
+      <p className="opacity-80">Las Carolinas – Sistema de Tracking</p>
+    </div>
+    <div className="flex items-center gap-2 opacity-70">
+      <Calendar className="w-4 h-4" />
+      <span>12/2025 – 02/2026</span>
+    </div>
+  </div>
+
+  <ul className="opacity-90 space-y-2 mb-4">
+    <li>• Desarrollo de servicios backend escalables usando Node.js y Express</li>
+    <li>• Diseño e implementación de REST APIs para procesamiento de datos</li>
+    <li>• Administración y optimización de bases de datos MySQL</li>
+    <li>• Mejora del rendimiento del sistema mediante optimización de consultas y estructura de datos</li>
+  </ul>
+
+  <a
+    href="https://lascarolinasenvios.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-4 py-2 rounded-md bg-black text-white dark:bg-white dark:text-black hover:opacity-80 transition"
+  >
+    Ver proyecto
+  </a>
+</div>
+
     </div>
   </div>
       </motion.section>
@@ -1715,7 +1744,7 @@ export default function App() {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/josue-espinoza-545b363aa"
               className="border hover:bg-gray-100 dark:hover:bg-gray-900 p-3 rounded-full transition-colors"
             >
               <Linkedin className="w-5 h-5" />
@@ -1963,7 +1992,7 @@ export default function App() {
   < footer className = "bg-white dark:bg-black border-t border-gray-200 dark:border-gray-800 py-8" >
     <div className="max-w-6xl mx-auto px-4 text-center">
       <p className="opacity-70">
-        2025 Edgar Josué Espinoza Zambrano. Todos los derechos reservados.
+        2025 - {new Date().getFullYear()} Edgar Josué Espinoza Zambrano.
       </p>
     </div>
       </footer >
