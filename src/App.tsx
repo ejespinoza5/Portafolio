@@ -1994,9 +1994,7 @@ export default function App() {
       <p className="opacity-70">
         2025 - {new Date().getFullYear()} Edgar Josué Espinoza Zambrano.
       </p>
-      <a href="android.settings.SETTINGS">
-  <button>Abrir Ajustes</button>
-</a>
+      
     </div>
       </footer >
     </div >
