@@ -377,7 +377,7 @@ export default function App() {
       console.log('Enviando con parámetros:', templateParams);
 
       const result = await emailjs.send(
-        'service_quhyniw',    // Service ID
+        'service_v3nuot9',    // Service ID
         'template_qsd55m6',   // Template ID
         templateParams
       );
